@@ -2,3 +2,8 @@
     remote = storage
 ['remote "storage"']
     url = gdrive://1kSfoD6u67LtRt28Y36XX9uG3vxsYF3b7
+['remote "s3-dhub"']
+    url = https://dagshub.com/sudapure/DVC-Playground.dvc
+    auth = basic
+    user = sudapure
+    password = 1c5ddaa5203cc538deeee044120161156926ccd6
