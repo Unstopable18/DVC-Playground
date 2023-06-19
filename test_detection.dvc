@@ -1,0 +1,5 @@
+outs:
+- md5: 74d6035c5d801b2851f07a4e1842c42d.dir
+  size: 6967445
+  nfiles: 256
+  path: test_detection
