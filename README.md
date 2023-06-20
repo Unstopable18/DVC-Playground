@@ -1,9 +1,25 @@
-# DVC-Playground
-To install DVC -> sudo snap install dvc --classic 
-Init DVC -> dvc init
-Add Storage -> dvc remote add -d storage gdrive://1kSfoD6u67LtRt28Y36XX9uG3vxsYF3b7
-DVC add images datasets -> dvc add datasets/detection/images
-DVC add labels datasets -> dvc add datasets/detection/labels
-DVC status -> dvc status
-DVC commit -> dvc commit
-DVC push -> dvc push
+## Initialize your git repository:
+- git clone <repo url>
+- cd <main dir>
+- mkdir README.md
+- git commit -m "<commit msg>"
+- check branch 
+- git push -u origin <branch_name>
+
+
+## DVC setup:
+- pip3 install dvc
+- dvc init
+
+- mkdir <data> and add datasets in data folder
+- dvc add data/.
+- dvc remote add <remote_name> <https://dagshub.com/{user_name}/{repo_name}.dvc>
+- dvc remote modify origin auth basic
+- dvc remote modify origin user <user_name>
+- dvc remote modify origin password <your_token>
+
+- git add .
+- git commit -m "<commit_msg>"
+- git push
+
+- dvc push -r <remote_name>
