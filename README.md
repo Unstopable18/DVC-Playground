@@ -14,9 +14,9 @@
 - mkdir <data> and add datasets in data folder
 - dvc add data/.
 - dvc remote add <remote_name> <https://dagshub.com/{user_name}/{repo_name}.dvc>
-- dvc remote modify origin auth basic
-- dvc remote modify origin user <user_name>
-- dvc remote modify origin password <your_token>
+- dvc remote modify <remote_name> auth basic
+- dvc remote modify <remote_name> user <user_name>
+- dvc remote modify <remote_name> password <your_token>
 
 - git add .
 - git commit -m "<commit_msg>"
