@@ -1,0 +1,7 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/vdeshmukh/DVC-Playground.dvc
+    auth = basic
+    user = vdeshmukh
+    password = e90d548993071bf0e9d0ff193589cbe56b624d74
